@@ -1,0 +1,27 @@
+.check-box-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-display {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-saiba-mais {
+  background: #fff;
+  border: 1px solid #43a565;
+  border-radius: 5px;
+}
+.button-saiba-mais:hover {
+  background-color: #43a565;
+  color: #fff;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  transition-property: all;
+}
+@media (min-width: 999px) {
+}

@@ -1,0 +1,48 @@
+.titleText {
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+.bodyText{
+    text-align: justify;
+}
+
+
+.card-img-display{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.coordenador-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 5%
+    
+
+}
+
+@media (min-width: 999px) {
+    .titleText {
+        text-align: start;
+    }  
+    .coordenador-area{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        border: none
+    
+    }
+    .card-img-display{
+        flex-direction: row;
+    }
+ 
+}
